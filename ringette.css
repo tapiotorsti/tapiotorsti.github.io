@@ -1,0 +1,54 @@
+
+h2 {
+    padding-right: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    word-spacing: 10rem;
+}
+
+h2 :hover {
+    color: cornsilk;
+}
+
+.otsikot {
+    display: flex;
+    align-items: center;
+    background-color: #66a3ff;
+    height: 5rem;
+    justify-content: space-evenly;
+}
+
+.seura {
+    margin-left:470px ;
+    
+}
+
+.pelaajakuva {
+    left: 30px;
+}
+
+.seurateksti {
+    display: flex;
+    width: 400px;
+    margin-left: 450px;
+    float: left;
+    margin-top: -400px;
+}
+
+.alalaita {
+    background-color:#66a3ff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.alalaita p {
+    padding: 1rem;
+    text-align: right;
+}

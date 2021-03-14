@@ -1,0 +1,56 @@
+h2 {
+    padding-right: 2rem;
+}
+
+h2 :hover {
+    color: cornsilk;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    word-spacing: 10rem;
+}
+
+.otsikot {
+    display: flex;
+    align-items: center;
+    background-color: #66a3ff;
+    height: 5rem;
+    justify-content: space-evenly;
+}
+
+h3 {
+    margin-left: 120px;
+}
+
+.ajankohtah {
+    color: blue;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+.ajankohtah :hover {
+    color: darkblue;
+}
+
+.halli {
+    position: absolute;
+    bottom: 200px;
+    right: 40px;
+}
+
+.alalaita {
+    background-color:#66a3ff ;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.alalaita p {
+    padding: 1rem;
+    text-align: right;
+}

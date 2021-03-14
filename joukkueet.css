@@ -1,0 +1,87 @@
+h2 {
+    padding-right: 2rem;
+}
+
+h2 :hover {
+    color: cornsilk;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    word-spacing: 10rem;
+}
+
+.otsikot {
+    display: flex;
+    align-items: center;
+    background-color: #66a3ff;
+    height: 5rem;
+    justify-content: space-evenly;
+}
+
+.joukkueh {
+    margin-left: 120px;
+}
+
+.joukkue {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    line-height: 1.2rem;
+}
+
+.joukkuedj {
+    width: 5rem;
+}
+
+.joukkuef {
+    width: 5.5rem;
+}
+
+.joukkuee {
+    width: 5rem;
+}
+
+.joukkued {
+    width: 5rem;
+}
+
+.joukkuec {
+    width: 5rem;
+}
+
+.joukkuecj {
+    width: 5.5rem;
+}
+
+.joukkueb {
+    width: 5.5rem;
+}
+
+.ilmoittaudu {
+    font-size: 2rem;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    margin-top: 150px;
+}
+
+.ilmoittaudu :hover {
+    color: darkblue;
+}
+
+.alalaita {
+    background-color:#66a3ff ;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.alalaita p {
+    padding: 1rem;
+    text-align: right;
+}

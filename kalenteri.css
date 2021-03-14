@@ -1,0 +1,244 @@
+body {
+    display: 50%;
+    width: 52%;
+    margin: 100px auto;
+    background-color: lightgray;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  .kalenteri-pohja {
+  
+    
+    align-self: center;
+    width: 1500;
+    height: 500px;
+    border-radius: 0px;
+    background-color: white;
+    position: relative;
+    z-index: -1;
+    color: black;
+  }
+  
+  .vuosi {
+    color: #E8E8E8;
+    font-size: 30px;
+    float: right;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    font-weight: bold;
+  }
+  
+  
+  .kuukausi-vari {
+    color: #66a3ff;
+  }
+  .kuukausi-hover:hover{
+    color:#66a3ff !important;
+  }
+  
+  .kuukaudet {
+    color: #AAAAAA;
+    position: relative;
+    left: 250px;
+    top: 90px;
+    word-spacing:16px;
+  }
+  
+  .kuukausi-viiva {
+    border-color: #E8E8E8;
+    position: relative;
+    top: 85px;
+    width: 66%;
+    left: 182px;
+  }
+  
+  .paivat {
+    color: #AAAAAA;
+    position: relative;
+    font-size: 18px;
+    left: 320px;
+    top: 80px;
+    word-spacing: 70px;
+    font-weight: 600;
+  }
+  
+  .paiva-numerot {
+    float: right;
+    position: relative;
+    top: 110px;
+    right:35px;
+    z-index: 1;
+  }
+  
+  .eka-viikko {
+    margin-bottom: 25px;
+    word-spacing: 76px;
+  }
+  
+  .toka-viikko {
+    margin-bottom: 25px;
+    word-spacing: 76px;
+  }
+  
+  .kolmas-viikko {
+    margin-bottom: 25px;
+    word-spacing: 76px;
+  }
+  
+  .neljas-viikko {
+    margin-bottom: 25px;
+    word-spacing: 76px;
+  }
+  
+  .viides-viikko {
+    margin-bottom: 25px;
+    word-spacing: 76px;
+  }
+  
+  .kuudes-viikko {
+    margin-bottom: 25px;
+    word-spacing: 76px;
+  }
+  
+  
+  .nykyinen-paiva {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #66a3ff;
+    position: relative;
+    top: 275px;
+    left: 713px;
+  }
+  
+  .white {
+    color: white;
+  }
+  
+  .grey {
+    color: #AAAAB1;
+  }
+  
+  .kalenteri-vasen {
+    width: 300px;
+    height: 500px;
+    border-radius: 0px 0px 0px 0px;
+    background-color:#66a3ff;
+    position: relative;
+    z-index: -1;
+    bottom: 500px;
+    color: white;
+  }
+  
+  
+  .paiva-numero{
+    font-size: 150px;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 700;
+  }
+  
+  .paiva {
+    width: 50%;
+    margin: 50px auto;
+    font-size: 30px;
+    position: relative;
+    bottom: 60px;
+  }
+  
+  .nykyinen-tapahtuma {
+    font-size: 15px;
+    position: relative;
+    margin-left: 25px;
+    bottom: 30px;
+  }
+  
+  .menneet {
+    text-decoration: underline dotted;
+  }
+  .menneet:hover{
+    color:#66a3ff !important;
+  }
+  
+  .luo-tapahtuma {
+    font-size: 18px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 25px;
+  }
+  
+  .tapahtuma-viiva {
+    width: 90%;
+  }
+  
+  .lisaa-tapahtuma {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    border-radius: 50%;
+    border: solid white 2px;
+    position: relative;
+    bottom: 42px;
+    left: 260px;
+  }
+  
+  .lisaa {
+    font-size: 25px;
+    position: relative;
+    left: 4px;
+    bottom: 10px;
+    
+  }
+  
+  .lisaa:hover, .luo-tapahtuma:hover, .lisaa-tapahtuma:hover{
+    color:#66a3ff !important;
+    border-color: #66a3ff !important;
+  }
+
+
+
+  h2 {
+    padding-right: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    word-spacing: 10rem;
+}
+
+h2 :hover {
+    color: cornsilk;
+}
+
+.otsikot {
+    display: flex;
+    align-items: center;
+    background-color: #66a3ff;
+    height: 5rem;
+    justify-content: space-evenly;
+}
+
+.otsikko{
+    margin-left:470px ;
+    
+}
+
+
+
+.alalaita {
+    background-color:#66a3ff;
+    position: absolute;
+    left: -10;
+    bottom: 0;
+    height: 5rem;
+    width: 50%;
+    overflow: hidden;
+}
+
+.alalaita p {
+    padding: 1rem;
+    text-align: right;
+}
+

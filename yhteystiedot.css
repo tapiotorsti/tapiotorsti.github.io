@@ -1,0 +1,54 @@
+h2 {
+    padding-right: 2rem;
+}
+
+h2 :hover {
+    color: cornsilk;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    word-spacing: 10rem;
+}
+
+.otsikot {
+    display: flex;
+    align-items: center;
+    background-color: #66a3ff;
+    height: 5rem;
+    justify-content: space-evenly;
+}
+
+.yhteystieto {
+    margin-top: 100px;
+}
+
+.yhteyst {
+    width: 9rem;
+    text-align: center;
+    margin-left: 680px;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.yhteyst2 {
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+.alalaita {
+    background-color:#66a3ff ;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.alalaita p {
+    padding: 1rem;
+    text-align: right;
+}
